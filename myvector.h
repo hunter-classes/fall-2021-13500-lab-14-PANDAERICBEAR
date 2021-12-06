@@ -5,7 +5,8 @@ template <class T>
 class MyVector {
    private:
       T* arr;   // elements
-      int s;
+      int initialCapacity = 10;
+      int Size;
    public:
      //Default MyVector constructor
      MyVector();
