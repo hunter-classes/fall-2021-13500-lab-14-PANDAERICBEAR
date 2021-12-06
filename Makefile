@@ -5,10 +5,10 @@ main: main.o myvector.o
 # 	g++ -o tests tests.o profile.o network.o
 
 main.o: main.cpp myvector.h
-	g++ -c -std=c++17 main.cpp
+	g++ -c main.cpp
 
 myvector.o: myvector.cpp myvector.h
-	g++ -c -std=c++17 myvector.cpp
+	g++ -c myvector.cpp
 
 clean:
 	rm -f *.o *.gch main
