@@ -10,7 +10,7 @@ class MyVector {
    public:
      //Default MyVector constructor
      MyVector();
-     // //Returns size of vector
+     //Returns size of vector
      int size();
      //Returns the size of the storage space currently allocated for the vector
      int capacity();
@@ -22,6 +22,9 @@ class MyVector {
      void pop_back(int n);
      //Removes element from end of array
      void pop_back();
-     //Clears all elements in array
+     //Clears all elements in array; capacity stays the same
      void clear();
+     //Returns the element at index i
+     //ex: vector[5]
+     T& operator[](int i);
 };

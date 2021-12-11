@@ -28,5 +28,5 @@ int main() {
   std::cout << vect.size() << std::endl;
   vect.clear();
   std::cout << vect.size() << std::endl;
-
+  std::cout << vect.capacity() << std::endl;
 }

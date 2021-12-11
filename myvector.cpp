@@ -73,6 +73,10 @@ void MyVector<T>::pop_back(){
 template <class T>
 void MyVector<T>::clear(){
   Size = 0;
-  initialCapacity = 10;
   arr = new T[initialCapacity];
+}
+
+template <class T>
+T& MyVector<T>::operator[] (int i) {
+  return arr[i];
 }
