@@ -59,7 +59,7 @@ TEST_CASE("Strings"){
   vector.pop_back();
   CHECK(vector.size() == 4);
 
-  //removing element at 5th index
+  //removing element at 3rd index
   CHECK(vector[3] == "Is");
   vector.pop_back(3);
   CHECK(vector[3] == "");

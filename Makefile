@@ -14,4 +14,4 @@ tests.o: tests.cpp doctest.h myvector.h
 	g++ -c tests.cpp
 
 clean:
-	rm -f *.o *.gch main
+	rm -f *.o *.gch main tests
